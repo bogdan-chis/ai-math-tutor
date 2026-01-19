@@ -1,0 +1,10 @@
+/venv
+/backend/.venv
+/frontend/node_modules
+/backend/app/__pycache__
+
+gpt2-mathdial-masked_loss/
+gpt2-mathdial-tutor_only/
+**/checkpoint-*/
+**/*.pt
+**/*.safetensors

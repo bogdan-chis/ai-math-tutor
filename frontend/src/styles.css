@@ -1,0 +1,20 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+body { margin: 0; background: #0b0c10; color: #e6e6e6; }
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+.card { background: #14161c; border: 1px solid #242836; border-radius: 12px; }
+.header { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; }
+.title { font-size: 16px; font-weight: 600; }
+.chat { padding: 14px 16px; height: 65vh; overflow: auto; display: flex; flex-direction: column; gap: 10px; }
+.msg { padding: 10px 12px; border-radius: 10px; max-width: 85%; white-space: pre-wrap; line-height: 1.35; }
+.user { align-self: flex-end; background: #1d2a44; border: 1px solid #2a3a60; }
+.assistant { align-self: flex-start; background: #1a1f2b; border: 1px solid #2a3346; }
+.system { align-self: center; background: #222; border: 1px solid #333; opacity: 0.9; }
+.footer { display: flex; gap: 10px; padding: 14px 16px; border-top: 1px solid #242836; }
+.input { flex: 1; background: #0f1117; border: 1px solid #242836; border-radius: 10px; padding: 10px 12px; color: #e6e6e6; }
+.btn { background: #2a6df4; border: none; color: white; padding: 10px 12px; border-radius: 10px; cursor: pointer; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.smallbtn { background: transparent; border: 1px solid #2a3a60; color: #e6e6e6; padding: 8px 10px; border-radius: 10px; cursor: pointer; }
+.row { display: flex; gap: 10px; align-items: center; }
+.controls { display: flex; gap: 10px; align-items: center; padding: 0 16px 16px; }
+label { font-size: 12px; opacity: 0.85; }
+select, input[type="number"] { background: #0f1117; border: 1px solid #242836; border-radius: 8px; padding: 6px 8px; color: #e6e6e6; }
